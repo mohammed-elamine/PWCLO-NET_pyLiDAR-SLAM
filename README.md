@@ -17,11 +17,11 @@ The pyLiDAR-SLAM toolbox offers a flexible and efficient solution for LiDAR-SLAM
 
 Although pyLiDAR-SLAM offers various features, it lacks implementations of well-known deep learning methods such as PWCLO-Net or SUMA++. In this study, a user-friendly [**PWCLO-Net**](https://github.com/IRMVLab/PWCLONet) adaptation that adheres to the pyLiDAR-SLAM framework will be presented.
 
-The figure below displays the results of four models:
-* The pre-trained model proposed in the original PWCLO-Net repository (code in TensorFlow).
-* Three additional models we propose (code in PyTorch).
+The figure below displays the predicted paths of four models trained and tested on the [**KITTI dataset**](https://www.cvlibs.net/datasets/kitti/), along with the ground truth path shown in red:
+* The pre-trained model proposed in the original PWCLO-Net repository (code in TensorFlow): path in green.
+* Three additional models we propose (code in PyTorch): paths in gray, blue and brown.
 
 ![results](./results_pwclonet.png)
 
-For more details, please refer to this [**repository**](https://github.com/saali14/PWCLONet_pyLiDARSLAM) and my [**Master's Thesis report**](./Master_Thesis_Report).
+For more details, please refer to this [**repository**](https://github.com/saali14/PWCLONet_pyLiDARSLAM) and my [**Master's Thesis report**](./SDIA_ELAMINE_Mohammed_Rapport_3A.pdf).
 
